@@ -1,0 +1,31 @@
+# Hugging Face Image Generator
+
+A Python-based text-to-image generator using Hugging Face Inference Providers and FLUX.1-schnell.
+
+## Features
+
+- Generate images from text prompts
+- User-provided prompts
+- FLUX.1-schnell model
+- Hugging Face authentication
+- Saves generated images locally
+
+## Installation
+
+git clone <repository-url>
+
+cd hugging-face-image-generator
+
+python -m venv venv1
+
+venv1\Scripts\activate
+
+pip install -r requirements.txt
+
+## Authentication
+
+hf auth login
+
+## Run
+
+python image_generator.py
